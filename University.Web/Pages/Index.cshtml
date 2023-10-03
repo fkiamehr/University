@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "خانه";
+}
+<main id="home-page">
+    <div class="container">
+        <section class="terms-items">
+            <header>
+                <h2>  سایت آزمایشی سحاب </h2>
+                <a href="/Students/CreateStudents"> ثبت نام دانشجویان </a>
+                <div class="col-md-12" style="margin: 10px 0;">
+
+                    <a asp-page="/Students/CreateStudents" class="btn btn-outline btn-success">ثبت نام دانشجوی جدید</a>
+
+                </div>
+            </header>
+           
+        </section>
+
+        <hr>
+
+        <section class="terms-items">
+            <header>
+                <h2> دوره های محبوب سایت آزمایشی سحاب </h2>
+                <a href=""> مشاهده همه دوره ها </a>
+            </header>
+          
+          
+        </section>
+    </div>
+</main>
